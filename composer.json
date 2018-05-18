@@ -4,6 +4,7 @@
     "keywords": ["yii2", "framework", "advanced", "project template","izisoft"],
     "homepage": "https://iziweb.vn",
     "type": "project",
+    "version": "2.0.1",
     "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/yiisoft/yii2/issues?state=open",
