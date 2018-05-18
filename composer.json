@@ -1,8 +1,8 @@
 {
-    "name": "yiisoft/yii2-app-advanced",
-    "description": "Yii 2 Advanced Project Template",
-    "keywords": ["yii2", "framework", "advanced", "project template"],
-    "homepage": "http://www.yiiframework.com/",
+    "name": "izisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Project Template By Izisoft",
+    "keywords": ["yii2", "framework", "advanced", "project template","izisoft"],
+    "homepage": "https://iziweb.vn",
     "type": "project",
     "license": "BSD-3-Clause",
     "support": {
@@ -10,14 +10,15 @@
         "forum": "http://www.yiiframework.com/forum/",
         "wiki": "http://www.yiiframework.com/wiki/",
         "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2"
+        "source": "https://github.com/izisoft/yii2"
     },
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "~2.0.14",
         "yiisoft/yii2-bootstrap": "~2.0.0",
-        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0"
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "izisoft/yii2": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
