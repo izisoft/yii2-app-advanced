@@ -1,43 +1,86 @@
 {
-    "name": "izisoft/yii2-app-advanced",
-    "description": "Yii 2 Advanced Project Template By Izisoft",
-    "keywords": ["yii2", "framework", "advanced", "project template","izisoft"],
-    "homepage": "https://iziweb.vn",
-    "type": "project",
-    "version": "2.0.1",
-    "license": "BSD-3-Clause",
-    "support": {
-        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/izisoft/yii2"
-    },
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.4.0",
-        "yiisoft/yii2": "~2.0.14",
-        "yiisoft/yii2-bootstrap": "~2.0.0",
-        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
-        "izisoft/yii2": "dev-master"
-    },
-    "require-dev": {
-        "yiisoft/yii2-debug": "~2.0.0",
-        "yiisoft/yii2-gii": "~2.0.0",
-        "yiisoft/yii2-faker": "~2.0.0",
-        "codeception/base": "^2.2.3",
-        "codeception/verify": "~0.3.1"
-    },
-    "config": {
-        "process-timeout": 1800,
-        "fxp-asset": {
-            "enabled": false
-        }
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ]
+	"name" : "izisoft/yii2-app-advanced",
+	"description" : "Yii 2 Advanced Project Template By Izisoft",
+	"keywords" : [
+		"yii2",
+		"framework",
+		"advanced",
+		"project template",
+		"izisoft"
+	],
+	"homepage" : "https://iziweb.vn",
+	"type" : "project",
+	"license" : "BSD-3-Clause",
+	"support" : {
+		"issues" : "https://github.com/yiisoft/yii2/issues?state=open",
+		"forum" : "http://www.yiiframework.com/forum/",
+		"wiki" : "http://www.yiiframework.com/wiki/",
+		"irc" : "irc://irc.freenode.net/yii",
+		"source" : "https://github.com/izisoft/yii2",
+		"email" : "izisoft@iziweb.vn"
+	},
+	"minimum-stability" : "dev",
+	"require" : {
+		"php" : ">=5.4.0",
+		"yiisoft/yii2" : "~2.0.14",
+		"yiisoft/yii2-bootstrap" : "~2.0.0",
+		"yiisoft/yii2-swiftmailer" : "~2.0.0 || ~2.1.0",
+		"izisoft/yii2" : "dev-master",
+		"matthiasmullie/minify" : "dev-master",
+		"league/oauth2-client" : "dev-master",
+		"phpmailer/phpmailer" : "dev-master",
+		"scotthuangzl/yii2-export2excel" : "dev-master",
+		"phpoffice/phpspreadsheet" : "dev-master",
+		"kartik-v/yii2-dynagrid" : "@dev",
+		"kartik-v/yii2-export" : "*",
+		"kartik-v/yii2-money" : "*",
+		"kartik-v/yii2-number" : "*",
+		"kartik-v/yii2-tree-manager" : "@dev",
+		"kartik-v/yii2-context-menu" : "*",
+		"kartik-v/yii2-builder" : "*",
+		"kartik-v/yii2-label-inplace" : "*",
+		"kartik-v/yii2-field-range" : "*",
+		"kartik-v/yii2-sortable" : "*",
+		"kartik-v/yii2-sortable-input" : "*"
+	},
+	"require-dev" : {
+		"yiisoft/yii2-debug" : "~2.0.0",
+		"yiisoft/yii2-gii" : "~2.0.0",
+		"yiisoft/yii2-faker" : "~2.0.0",
+		"codeception/base" : "^2.2.3",
+		"codeception/verify" : "~0.3.1"
+	},
+	"config" : {
+		"process-timeout" : 1800,
+		"fxp-asset" : {
+			"enabled" : false
+		}
+	},
+	"repositories" : [{
+			"type" : "composer",
+			"url" : "https://asset-packagist.org"
+		}
+	],
+	"authors" : [{
+			"name" : "A Tỉn",
+			"email" : "atin@iziweb.vn",
+			"homepage" : "https://iziweb.vn",
+			"role" : "Master developer"
+		}, {
+			"name" : "A Xỉn",
+			"email" : "axin@iziweb.vn",
+			"homepage" : "https://thaochip.com",
+			"role" : "Frontend developer"
+		}, {
+			"name" : "A Tủn",
+			"email" : "atun@iziweb.vn",
+			"homepage" : "https://emz.vn",
+			"role" : "Backend developer"
+		}, {
+			"name" : "A Páo",
+			"email" : "apao@iziweb.vn",
+			"homepage" : "https://helloweb.vn",
+			"role" : "Database developer"
+		}
+	]
 }
